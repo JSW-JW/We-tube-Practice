@@ -1,3 +1,3 @@
-# WE-TUBE PRACTICE
+# We-tube-Practice
 
-MY own project for practicing the whole Parts
+Practicing and making my own project with reference to we-tube course
