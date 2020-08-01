@@ -1,0 +1,8 @@
+extends layouts/main
+
+block content
+    form(action="/login", method="POST")
+        input(type="email", name="email", placeholder="아이디(이메일)")
+        input(type="password", name="password", placeholder="비밀번호")
+        input(type="password", name="verifyPassword", placeholder="비밀번호 확인")
+        input(type="submit", value="로그인!")
