@@ -1,0 +1,14 @@
+{
+  "name": "we-tube",
+  "version": "1.0.0",
+  "description": "Practicing and making my own project with reference to we-tube Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seungwon J",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
