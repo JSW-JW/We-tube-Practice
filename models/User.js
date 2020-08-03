@@ -2,8 +2,8 @@ import mongoose from "mongoose";
 import passportLocalMongoose from "passport-local-mongoose";
 
 const userSchema = new mongoose.Schema({
-  name: String,
-  email: String,
+  name: { type: String, required: true },
+  email: { type: String, required: true },
 });
 userSchema.plugin(passportLocalMongoose, { usernameField: "email" });
 

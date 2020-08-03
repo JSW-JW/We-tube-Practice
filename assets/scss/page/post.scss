@@ -1,0 +1,38 @@
+.page__title {
+  width: 60%;
+  margin: 100px 0 10px 20%;
+  font-size: 18px;
+  font-weight: 600;
+}
+.form__container {
+  width: 60%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #b6b8c3;
+  .post__form {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .under__post-body {
+      margin-top: 10px;
+      width: 743px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .post__category {
+      width: 743px;
+      margin: 0 0 10px 0;
+    }
+    .post__title {
+      width: 743px;
+      margin-bottom: 10px;
+    }
+    .post__body {
+      margin-bottom: 10px;
+    }
+  }
+}

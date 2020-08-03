@@ -1,0 +1,17 @@
+extends layouts/post
+
+block content
+    .page__title 고민을 말씀해주세요 😢
+    .form__container
+        form.post__form(action="/post", method="POST")
+            select.post__category(name="category")
+                option(value="choiceOption") --카테고리--
+                option(value="sympathy") 위로
+                option(value="advice") 충고, 조언
+                option(value="feedback") 피드백
+            input.post__title(type="text", name="title", placeholder="제목을 입력해 주세요")
+            textarea.post__body(id="summernote" name="body")
+            .under__post-body
+                input(type="submit", name="submit", value="작성하기")
+                a(href="/")
+                    button 돌아가기
